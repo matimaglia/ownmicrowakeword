@@ -4,7 +4,7 @@
   "author": "Maglianesi Matias",
   "model": "./sara.tflite",
   "trained_languages": ["es"],
-  "version": 1,
+  "version": 2,
   "micro": {
     "probability_cutoff": 0.99,
     "sliding_window_size": 3,

@@ -3,7 +3,7 @@
   "wake_word": "Sara",
   "author": "Maglianesi Matias",
   "website": "ubuntu",
-  "model": "sara.tflite",
+  "model": "https://github.com/matimaglia/ownmicrowakeword/raw/main/sara.tflite",
   "trained_languages": ["es"],
   "version": 2,
   "micro": {

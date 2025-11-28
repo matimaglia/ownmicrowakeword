@@ -2,15 +2,13 @@
   "type": "micro",
   "wake_word": "Sara",
   "author": "Maglianesi Matias",
-  "website": "ubuntu",
-  "model": "https://github.com/matimaglia/ownmicrowakeword/raw/main/sara.tflite",
+  "model": "./sara.tflite",
   "trained_languages": ["es"],
-  "version": 2,
+  "version": 1,
   "micro": {
     "probability_cutoff": 0.99,
     "sliding_window_size": 3,
     "feature_step_size": 10,
-    "tensor_arena_size": 30000,
-    "minimum_esphome_version": "2024.7.0"
+    "tensor_arena_size": 30000
   }
 }
